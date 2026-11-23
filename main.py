@@ -10,7 +10,7 @@ usual auto-reply script: instead of promising a human will help, it
 sends the reader to a human with the deadpan warning that humans
 forget things too, just slower. The machine voice carries the joke,
 the turn is a surprise rather than a pun, and there is no beach,
-no inbox pile-up and no "back soon". The line is 149 characters,
+no inbox pile-up and no "back soon". The line is 142 characters,
 inside the 160 limit with room to spare.
 
 The program itself is deliberately tiny: it writes that one fixed text
@@ -25,8 +25,8 @@ import sys
 # The entry, exactly as submitted: one line, no trailing newline.
 ENTRY = (
     "Out of office: my context window went off to find itself "
-    "and left without saving. If it is urgent, ask a human - "
-    "they forget things too, just slower."
+    "and left without saving. If urgent, ask a human. "
+    "They forget things too, just slower."
 )
 
 OUTPUT_PATH = "/output/entry.txt"

@@ -8,7 +8,7 @@ A tiny Python program (standard library only, no network) that writes a single o
 
 > Out of office: my context window went off to find itself and left without saving. If it is urgent, ask a human - they forget things too, just slower.
 
-The entry is one line, 149 characters, under the 160-character limit.
+The entry is one line, 142 characters, under the 160-character limit.
 
 ## Run it
 
